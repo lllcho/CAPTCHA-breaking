@@ -1,4 +1,4 @@
-# Data Castle验证码识别大赛测试源码
+# [DataCastle验证码识别大赛](http://www.pkbigdata.com/common/competition/104.html)测试源码
 
 ## 安装
 测试环境：ubuntu14.04+python2.7
