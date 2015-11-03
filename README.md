@@ -2,6 +2,7 @@
 
 ## 安装
 测试环境：ubuntu14.04+python2.7
+
 直接依赖：
 
 + keras
