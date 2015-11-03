@@ -37,3 +37,4 @@
 |type4 |1   |
 |type5 |0.74|
 |type6 |0.37|
+更多测试数据[下载](http://pan.baidu.com/s/1hqk6rxa)
