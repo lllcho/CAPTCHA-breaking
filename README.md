@@ -7,7 +7,7 @@
 
 直接依赖：
 
-+ keras
++ keras(theano版本要求0.7.1)
 + python-opencv
 
 推荐安装步骤：
