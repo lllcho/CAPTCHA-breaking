@@ -1,4 +1,4 @@
-# Testing codes for [CAPTCHA Identification Challenge (DataCastle)](http://www.pkbigdata.com/common/competition/104.html)  
+# Testing codes for [CAPTCHA Breaking Challenge (DataCastle)](http://www.pkbigdata.com/common/competition/104.html)  
 
 ## [Thoughts behind (Chinese)](http://bbs.pkbigdata.com/topic/e0286749ba3245bc96444122cc9877db.html)  
 
@@ -53,9 +53,7 @@ python setup.py install
   
 ---  
 
-# [DataCastle验证码识别大赛](http://www.pkbigdata.com/common/competition/104.html)测试源码
-
-##[验证码识别思路分析](http://bbs.pkbigdata.com/topic/e0286749ba3245bc96444122cc9877db.html)
+# 中文说明
 
 ## 安装
 测试环境：ubuntu14.04+python2.7
