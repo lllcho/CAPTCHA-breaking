@@ -1,3 +1,58 @@
+# Testing codes for [CAPTCHA Identification Challenge (DataCastle)](http://www.pkbigdata.com/common/competition/104.html)  
+
+## [Thoughts behind (Chinese)](http://bbs.pkbigdata.com/topic/e0286749ba3245bc96444122cc9877db.html)  
+
+## Installation  
+**Testing environment**  
+ubuntu14.04 + python2.7  
+
+**Direct dependencies**  
+- keras (required version of theano : 0.7.1)  
+- python-opencv  
+
+**Installation pipeline recommended**  
+1 Install [Anaconda](https://www.continuum.io/downloads#_unix) ([alternative](http://pan.baidu.com/s/1eQsHswM)) to replace default python;  
+
+2 Configure CUDA and alter ```~/.theanorc``` (ignore the step if not use GPU);
+```
+vim ~/.theanorc
+```
+
+Then add:  
+```
+[global]
+  device = gpu
+  floatX = float32
+```
+  
+3 Install keras: using the default or specified version ([0.1.2](https://github.com/fchollet/keras/archive/0.1.2.tar.gz)) to avoid the problems caused by changed API of the latest version;
+```
+cd keras-master  
+python setup.py install
+```
+  
+4 Configure openCV: ```sudo apt-get install python-opencv```, then add cv2.so to the python path.  
+
+*Note: the codes work for windows as well, just make sure the python dependencies have been installed.*  
+
+## How to use  
+1 Change the input (where the CAPTCHA pictures are stored) and output path in the script;  
+2 run ```python test_type*N*.py```.  
+
+## Testing results  
+| Type | Accuracy |
+|------|----|
+|type1 |0.92|
+|type2 |0.99|
+|type3 |0.99|
+|type4 |1   |
+|type5 |0.74|
+|type6 |0.37|  
+
+*Find more testing data [here](http://pan.baidu.com/s/1hqk6rxa)*  
+  
+---  
+
 # [DataCastle验证码识别大赛](http://www.pkbigdata.com/common/competition/104.html)测试源码
 
 ##[验证码识别思路分析](http://bbs.pkbigdata.com/topic/e0286749ba3245bc96444122cc9877db.html)
